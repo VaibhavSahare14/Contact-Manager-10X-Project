@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap');
+
+.main-container {
+    display: flex;
+    width: 100%;
+}
+
+.sideBar {
+    width: 15%;
+}
+
+.middle-container {
+    margin: 0;
+    box-sizing: border-box;
+    width: 82%;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 98px;
+    margin: 0 27px;
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+
+.total-contact {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 49px;
+    color: #454545;
+    opacity: 0.8;
+}
+
+.user-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-image {
+    margin-right: 10px;
+}
+
+.user-details p {
+    margin: 0;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.search input {
+    background: white;
+    border-radius: 6px;
+    width: 400px;
+    height: 50px;
+    border: 1px solid gray;
+    padding: 0.5em;
+    padding-left: 50px;
+}
+
+.search input:focus {
+    outline: none !important;
+    border: 1px solid #0a89e4f0;
+}
+
+.search input::placeholder {
+    padding-left: 0;
+    opacity: 0.7;
+}
+
+.search {
+    position: relative;
+}
+
+.search img {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.tableNav-container {
+    margin-top: 20px;
+    margin-left: 20px;
+
+}

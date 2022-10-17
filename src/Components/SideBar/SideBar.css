@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap');
+
+main {
+    display: flex;
+    font-family: 'Titillium Web';
+
+}
+
+.side-bar {
+    width: 251px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.sideBar-container {
+    height: 90%;
+    background-color: #CEF3FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sideBar-heading {
+    color: #0884FF;
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 50px;
+    margin-top: 8%;
+    margin-left: -30%;
+}
+
+.sideBar-heading h1 {
+    font-weight: 600;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: row;
+    margin-left: -25px;
+    margin-bottom: 18px;
+    align-items: center;
+}
+
+.dashboard p {
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 5%;
+}
+
+.dashboard img {
+    width: 18px;
+    height: 18px;
+}
+
+.total-contacts {
+    width: 180px;
+    height: 55px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding-left: 8px;
+    background-color: #2DA5FC;
+    border-radius: 6px;
+    position: relative;
+}
+
+.total-contacts svg {
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+}
+
+.total-contacts p {
+    margin-left: 5%;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: white;
+}
+
+.total-contacts::after {
+    content: '';
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 2px;
+    height: 30px;
+    background-color: white;
+}
+
+.logout-container {
+    height: 10%;
+    border-top: 3px solid white;
+    background-color: #CEF3FF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.logout-container p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    position: absolute;
+    left: 70px;
+}
+
+.logout-container img {
+    position: absolute;
+    left: 30px;
+}
+
+h1:hover,
+p:hover,
+img:hover,
+svg:hover {
+    cursor: pointer;
+}

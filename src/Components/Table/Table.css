@@ -1,0 +1,81 @@
+table {
+    /* width: 1409px; */
+    width: 100%;
+    height: 60px;
+    box-shadow: inset -1px -1px 20px rgba(254, 134, 39, 0.1),
+        inset 1px 1px 20px rgba(254, 134, 39, 0.1);
+    border-radius: 10px;
+}
+
+thead {
+    font-family: Titillium Web;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    left: 15px;
+    top: 107px;
+    background: #B2DFFF;
+    text-align: center;
+    height: 50px;
+}
+
+td {
+    font-size: 18px;
+    font-family: Titillium Web;
+    height: 50px;
+    text-align: center;
+}
+
+tr:hover {
+    background: #ffffff;
+    box-shadow: 1px 1px 20px rgba(178, 223, 255, 0.43);
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+tr:nth-child(even) {
+    background: #B2DFFF4F;
+    color: #0a89e4f0;
+}
+
+input[type="checkbox"] {
+
+    width: 18px;
+    height: 18px;
+    position: relative;
+    left: 2.5px;
+    /* top: 12px; */
+}
+
+#checkAll {
+    width: 25px;
+    position: relative;
+    left: 2.5px;
+    top: 12px;
+}
+
+.page-no {
+    position: fixed;
+    top: 90%;
+    right: 2%;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    margin-top: 30px;
+    height: 30px;
+    /* border: 1px solid blue;
+    background-color: #B2DFFF; */
+}
+
+.page-no button {
+    font-size: 25px;
+    cursor: pointer;
+    margin-right: 20px;
+    height: 100%;
+    width: 50px;
+    background-color: white;
+    outline: none;
+    border: none;
+
+}

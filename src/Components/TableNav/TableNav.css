@@ -1,0 +1,119 @@
+.popup {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  width: 345px;
+  height: 318px !important;
+  background: #ffffff;
+  border-radius: 10px;
+  border: 1px dashed blue;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+}
+
+.popuptext {
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 37px;
+  color: #1f2633;
+}
+
+.popuplink {
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #2da5fc;
+  width: 245px;
+  margin: 5px 0;
+  opacity: 0.8;
+}
+
+button.popupbtn {
+  width: 124px;
+  height: 34px;
+  background: #2da5fc;
+  border-radius: 5px;
+  border: none;
+  font-family: "Titillium Web";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.highlighted {
+  background: lightgreen;
+  border: 1px dashed green;
+  /* -webkit-box-shadow: 0 0 5px 2px #fff; */
+  /* -moz-box-shadow: 0 0 5px 2px #fff; */
+  box-shadow: 0 0 5px 2px #fff;
+}
+
+
+
+
+/* ----------------------------------------- */
+.table-nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-nav {
+  width: 35%;
+  display: flex;
+  align-content: flex-end;
+}
+
+.left-nav .nav-items {
+  align-content: flex-end;
+  margin-left: 20px;
+}
+
+.right-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 145px;
+  height: 30px;
+  background: #FFFFFF;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+.right-nav .nav-items {
+  justify-content: center;
+  align-content: flex-end;
+  margin-left: 20px;
+  width: 120px;
+}
+
+.right-nav .nav-items span {
+  margin-left: 15px;
+}
+
+.dropzone {
+  border: 1px solid red;
+}
+
+.mainTable-container {
+  margin-top: 23px;
+  width: 100%;
+}
